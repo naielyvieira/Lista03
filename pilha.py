@@ -33,7 +33,8 @@ class Pilha:
             raise Exception("A pilha está vazia")
         return self._top.valor
     
-#Exe03
+
+
 def calcular(exp):
     p = Pilha()
     for caractere in exp:
